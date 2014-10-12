@@ -6,7 +6,7 @@ device=LM555
 T 40500 55800 5 10 1 1 0 0 1
 refdes=U1
 T 38700 55800 5 10 0 0 0 0 1
-footprint=SOT8
+footprint=SO8
 }
 N 41000 56200 42200 56200 4
 C 42300 55100 1 90 0 resistor-1.sym
