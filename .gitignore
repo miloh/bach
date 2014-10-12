@@ -1,0 +1,22 @@
+# Editing files #
+################
+*.swp
+
+# Rules for geda/gaf #
+######################
+*.sch~
+*.sym~
+*.fp~
+*.fp-
+*.pcb~
+*.pcb-
+PCB*.backup
+*.sch#
+
+
+#Output files#
+##############
+*.pdf
+*.ps
+*.png
+*.eps
