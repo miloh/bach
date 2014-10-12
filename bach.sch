@@ -25,7 +25,7 @@ refdes=D1
 T 42700 54900 5 10 0 0 270 0 1
 device=LED
 T 42100 55000 5 10 0 0 0 0 1
-footprint=1206
+footprint=led-1206
 }
 C 42100 53700 1 0 0 gnd-1.sym
 C 40100 60200 1 0 0 vdd-1.sym
