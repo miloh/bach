@@ -9,7 +9,7 @@ Grid[1000.000000 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 11.00mil 6.00mil]
-Flags("nameonpcb,uniquename,clearnew,snappin")
+Flags("nameonpcb,uniquename,snappin")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
@@ -788,7 +788,7 @@ Symbol['~' 12.00mil]
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "10.00mil")
 
-Element["" "cr2032-p1" "B1" "unknown" 680.00mil 440.00mil 3.0000mm 7.0000mm 2 100 ""]
+Element["" "cr2032-p1" "B1" "unknown" 680.00mil 440.00mil 1.5720mm 4.6840mm 0 100 ""]
 (
 	Attribute("device" "BATTERY")
 	Attribute("manufacturer" "unknown")
@@ -906,7 +906,6 @@ Layer(1 "top")
 	Line[900.00mil 1150.00mil 936.20mil 1186.20mil 20.00mil 20.00mil "clearline"]
 	Line[936.20mil 1186.20mil 980.00mil 1186.20mil 20.00mil 20.00mil "clearline"]
 	Line[617.50mil 942.50mil 680.00mil 880.00mil 20.00mil 20.00mil "clearline"]
-	Line[680.00mil 880.00mil 680.00mil 440.00mil 20.00mil 20.00mil "clearline"]
 	Line[980.00mil 840.00mil 28.7220mm 17.5060mm 20.00mil 20.00mil "clearline"]
 	Line[28.7220mm 17.5060mm 28.7220mm 440.00mil 20.00mil 20.00mil "clearline"]
 	Line[617.50mil 1000.00mil 617.50mil 947.50mil 20.00mil 20.00mil "clearline"]
@@ -922,6 +921,11 @@ Layer(1 "top")
 	Line[980.00mil 958.10mil 920.00mil 958.10mil 16.00mil 12.00mil "clearline"]
 	Line[920.00mil 958.10mil 878.10mil 1000.00mil 16.00mil 12.00mil "clearline"]
 	Line[878.10mil 1000.00mil 822.50mil 1000.00mil 16.00mil 12.00mil "clearline"]
+	Line[680.00mil 880.00mil 680.00mil 440.00mil 20.00mil 20.00mil ""]
+	Polygon("clearpoly")
+	(
+		[420.00mil 370.00mil] [920.00mil 370.00mil] [920.00mil 770.00mil] [420.00mil 770.00mil] 
+	)
 )
 Layer(2 "ground")
 (
